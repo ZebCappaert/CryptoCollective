@@ -29,6 +29,16 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+h5 {
+    font-size: 1.5rem; /* Middelgrote tekst voor een subtiele kop */
+    color: #1565c0; /* Blauw dat past bij de kopkleuren */
+    margin: 1rem 0; /* Ruimte boven en onder voor betere leesbaarheid */
+    text-align: center; /* Centraal uitgelijnd voor visuele balans */
+    font-weight: bold; /* Voor een duidelijke en opvallende stijl */
+    border-bottom: 2px solid #1565c0; /* Dunne blauwe onderstreping voor extra visuele aantrekkelijkheid */
+    padding-bottom: 0.5rem; /* Extra ruimte onder de lijn voor mooie afwerking */
+}
+
 /* Layout voor main */
 main {
     display: flex;
