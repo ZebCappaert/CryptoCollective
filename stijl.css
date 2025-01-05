@@ -17,6 +17,10 @@ main {
 h2, h3 {
     text-align: center;
     background-color: white;
+    padding: 1rem;
+}
+h2 {
+    font-weight: bold;
 }
 
 div {
