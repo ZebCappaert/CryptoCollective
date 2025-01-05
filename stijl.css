@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #212121;
     background-color: #f2f4f8;
-    margin: 0;
+    margin: 3rem;
     padding: 0;
     line-height: 1.6;
     display: flex;
@@ -48,6 +48,32 @@ main {
     margin: 2rem auto;
     max-width: 1200px;
 }
+
+/* Navigatie stijl */
+.navbar {
+    width: 100%;
+    background-color: #1565c0; /* Blauw als achtergrondkleur */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    position: fixed; /* Fixeert de navigatie aan de bovenkant */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Zorgt ervoor dat navigatie altijd zichtbaar is boven de inhoud */
+}
+
+.navbar a {
+    color: #ffffff; /* Wit voor de links */
+    text-decoration: none; /* Geen onderlijning */
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #e3f2fd; /* Lichtblauw bij hover voor interactie */
+}
+
 
 /* Tabel styling */
 table {
