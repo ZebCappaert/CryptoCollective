@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #212121;
+    background-color: #f2f4f8;
+    margin: 3rem auto; /* Margin aan zijkanten, centrumopmaak */
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1500px; /* Beperk de breedte van de inhoud voor een nette layout */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1565c0; /* Sterk blauw */
+    margin: 1.5rem 0;
+}
+
+h5 {
+    font-size: 1.5rem; /* Middelgrote tekst voor een subtiele kop */
+    color: #1565c0; /* Blauw dat past bij de kopkleuren */
+    margin: 1rem 0; /* Ruimte boven en onder voor betere leesbaarheid */
+    text-align: center; /* Centraal uitgelijnd voor visuele balans */
+    font-weight: bold; /* Voor een duidelijke en opvallende stijl */
+    border-bottom: 2px solid #1565c0; /* Dunne blauwe onderstreping voor extra visuele aantrekkelijkheid */
+    padding-bottom: 0.5rem; /* Extra ruimte onder de lijn voor mooie afwerking */
+}
+
+.navbar {
+    width: 100%;
+    background-color: #1565c0; /* Blauw als achtergrondkleur */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    position: fixed; /* Fixeert de navigatie aan de bovenkant */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Zorgt ervoor dat navigatie altijd zichtbaar is boven de inhoud */
+}
+
+.navbar a {
+    color: #ffffff; /* Wit voor de links */
+    text-decoration: none; /* Geen onderlijning */
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #e3f2fd; /* Lichtblauw bij hover voor interactie */
+}
+
+
+
+/* Tabel styling voor beide */
+table {
+    width: 100%; /* Voor beide tabellen volledige breedte */
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: block; /* Tabellen verticaal onder elkaar plaatsen */
+    margin-bottom: 3rem;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: left;
+}
+
+table thead {
+    background-color: #1565c0; /* Blauw */
+    color: #ffffff;
+    text-align: left;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f4f6f8; /* Lichtgrijs */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #e3f2fd; /* Lichtblauw */
+}
+
+table tbody tr:hover {
+    background-color: #bbdefb; /* Donkerder blauw */
+}
