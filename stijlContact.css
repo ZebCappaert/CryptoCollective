@@ -1,0 +1,56 @@
+/* Algemene opmaak */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #212121;
+    background-color: #f2f4f8;
+    margin: 3rem;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Koppen */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1565c0; /* Sterk blauw */
+    margin: 1.5rem 0;
+}
+
+p {
+    max-width: 800px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+/* Navigatie stijl */
+.navbar {
+    width: 100%;
+    background-color: #1565c0; /* Blauw als achtergrondkleur */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    position: fixed; /* Fixeert de navigatie aan de bovenkant */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Zorgt ervoor dat navigatie altijd zichtbaar is boven de inhoud */
+}
+
+.navbar a {
+    color: #ffffff; /* Wit voor de links */
+    text-decoration: none; /* Geen onderlijning */
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #e3f2fd; /* Lichtblauw bij hover voor interactie */
+}
